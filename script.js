@@ -1,7 +1,3 @@
-// JSON -> Javascript Object Notation
-// API -> Application Programing Interface
-// Fetch API
-
 async function fetchMovies() {
   try {
     const response = await fetch("https://movie-details-data.onrender.com/movie/get-movie");
